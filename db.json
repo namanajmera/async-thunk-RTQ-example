@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Marc Dickens",
+      "id": 1
+    },
+    {
+      "name": "Tiffany Buckridge",
+      "id": 2
+    },
+    {
+      "name": "Tyler Frami",
+      "id": 3
+    },
+    {
+      "name": "Vanessa Hyatt Sr.",
+      "id": 4
+    }
+  ],
+  "albums": [],
+  "photos": []
+}

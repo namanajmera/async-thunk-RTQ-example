@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import Skeleton from "./Skeleton";
 import Button from "./Button";
 import { useThunk } from "../hooks/useThunk";
+import UserListItem from "./UserListItem";
 
 export default function UsersList() {
   const [doFetchUsers, isLoading, isError] = useThunk(fetchUsers);
@@ -21,6 +22,7 @@ export default function UsersList() {
   const handleAddUser = () => {
     doAddUser();
   };
+
   return (
     <div className="m-8">
       <div className="flex flex-row justify-between item-center m-3">
@@ -37,13 +39,7 @@ export default function UsersList() {
         ) : (
           usersList &&
           usersList.map((user) => {
-            return (
-              <div key={user.id} className="mb-2 border rounded">
-                <div className="flex p-2 justify-between items-center cursor-pointer">
-                  {user.name}
-                </div>
-              </div>
-            );
+            return <UserListItem key={user.id} user={user} />;
           })
         )}
       </ul>

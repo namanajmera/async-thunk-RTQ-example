@@ -1,64 +1,12 @@
 {
   "users": [
     {
-      "name": "Marc Dickens",
-      "id": 1
-    },
-    {
-      "name": "Tiffany Buckridge",
-      "id": 2
-    },
-    {
-      "name": "Tyler Frami",
-      "id": 3
-    },
-    {
-      "name": "Vanessa Hyatt Sr.",
-      "id": 4
-    },
-    {
-      "name": "Michelle Wintheiser",
-      "id": 5
-    },
-    {
-      "name": "Frances Padberg",
-      "id": 6
-    },
-    {
-      "name": "Lois Graham",
-      "id": 7
-    },
-    {
-      "name": "Ms. Leo Welch",
-      "id": 8
-    },
-    {
-      "name": "Miranda Lang PhD",
+      "name": "Lionel Ryan",
       "id": 9
     },
     {
-      "name": "Dora Rempel",
-      "id": 10
-    },
-    {
-      "name": "Gail Mann",
-      "id": 11
-    },
-    {
-      "name": "Mr. Jon Cartwright",
+      "name": "Wilbur Purdy",
       "id": 12
-    },
-    {
-      "name": "Dr. Amos Zieme",
-      "id": 13
-    },
-    {
-      "name": "Cathy Rosenbaum",
-      "id": 14
-    },
-    {
-      "name": "Kendra Kuphal",
-      "id": 15
     }
   ],
   "albums": [],

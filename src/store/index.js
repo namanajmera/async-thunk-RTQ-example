@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { usersReducer } from './slices/usersSlice'
 
-export const store =  configureStore({
+export const store = configureStore({
    reducer: {
       users: usersReducer
    }
@@ -9,3 +9,4 @@ export const store =  configureStore({
 
 export * from './thunk/fetchUsers'
 export * from './thunk/addUser'
+export * from './thunk/deleteUser'

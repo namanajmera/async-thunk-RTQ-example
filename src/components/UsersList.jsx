@@ -23,10 +23,10 @@ export default function UsersList() {
   };
   return (
     <div className="m-8">
-      <div className="flex flex-row justify-between m-3">
+      <div className="flex flex-row justify-between item-center m-3">
         <h1 className="m-2 text-xl">List Of Users...!!!</h1>
-        <Button primary onClick={handleAddUser}>
-          {isAdding ? "Creating Users" : "+Add User"}
+        <Button loading={isAdding} primary onClick={handleAddUser}>
+          +Add User
         </Button>
         {isErrorAdd && "Error in Adding..."}
       </div>

@@ -10,7 +10,7 @@ export const store = configureStore({
    },
    middleware: (getDefaultMiddleware) => {
       return getDefaultMiddleware().concat(albumsApi.middleware);
-   }
+   },
 })
 
 setupListeners(store.dispatch);
@@ -18,4 +18,4 @@ setupListeners(store.dispatch);
 export * from './thunk/fetchUsers'
 export * from './thunk/addUser'
 export * from './thunk/deleteUser'
-export { useFetchAlbumsQuery } from './apis/albumsApi'
+export { useFetchAlbumsQuery, useAddAlbumMutation } from './apis/albumsApi'

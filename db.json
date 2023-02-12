@@ -1,44 +1,20 @@
 {
   "users": [
     {
-      "name": "Trevor Hammes",
+      "name": "Vincent Bayer",
       "id": 1
-    },
-    {
-      "name": "Clinton Jerde",
-      "id": 2
     }
   ],
   "albums": [
     {
-      "title": "Elegant Plastic Cheese",
-      "userId": 2,
+      "title": "Generic Rubber Chips",
+      "userId": 1,
       "id": 1
     },
     {
-      "title": "Licensed Frozen Tuna",
-      "userId": 2,
-      "id": 3
-    },
-    {
-      "title": "Licensed Bronze Mouse",
+      "title": "Small Plastic Car",
       "userId": 1,
-      "id": 4
-    },
-    {
-      "title": "Elegant Cotton Computer",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "title": "Ergonomic Frozen Chair",
-      "userId": 2,
-      "id": 6
-    },
-    {
-      "title": "Refined Granite Hat",
-      "userId": 2,
-      "id": 7
+      "id": 2
     }
   ],
   "photos": []

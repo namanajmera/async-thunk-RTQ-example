@@ -5,7 +5,7 @@ import { useAddAlbumMutation, useFetchAlbumsQuery } from "../store";
 import Skeleton from "./Skeleton";
 
 export default function AlbumList({ user }) {
-  const { data, error, isLoading, refetch } = useFetchAlbumsQuery(user);
+  const { data, isLoading, refetch } = useFetchAlbumsQuery(user);
   const [addAlbum, result] = useAddAlbumMutation();
   const isAdded = result.isLoading;
   const handleAddAlbum = () => {
@@ -27,7 +27,9 @@ export default function AlbumList({ user }) {
         ) : (
           data &&
           data.map((album) => {
-            return <AlbumListItem key={album.id} album={album} />;
+            return (
+              <AlbumListItem key={album.id} album={album} refetch={refetch} />
+            );
           })
         )}
       </ul>

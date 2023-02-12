@@ -1,116 +1,44 @@
 {
   "users": [
     {
-      "name": "Pablo Kihn",
+      "name": "Trevor Hammes",
       "id": 1
     },
     {
-      "name": "Margaret Gusikowski",
+      "name": "Clinton Jerde",
       "id": 2
-    },
-    {
-      "name": "David Russel I",
-      "id": 3
-    },
-    {
-      "name": "Celia Streich",
-      "id": 4
-    },
-    {
-      "name": "Ms. Bernice Ortiz",
-      "id": 5
-    },
-    {
-      "name": "Cassandra Carroll",
-      "id": 6
-    },
-    {
-      "name": "Ross Effertz",
-      "id": 7
-    },
-    {
-      "name": "Harriet Rau",
-      "id": 8
-    },
-    {
-      "name": "Tommie Orn",
-      "id": 9
-    },
-    {
-      "name": "Mr. Ernest Osinski",
-      "id": 10
     }
   ],
   "albums": [
     {
-      "title": "Oriental Cotton Bike",
-      "userId": 1,
+      "title": "Elegant Plastic Cheese",
+      "userId": 2,
       "id": 1
     },
     {
-      "title": "Luxurious Fresh Car",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "title": "Ergonomic Granite Pizza",
+      "title": "Licensed Frozen Tuna",
       "userId": 2,
       "id": 3
     },
     {
-      "title": "Tasty Soft Pants",
+      "title": "Licensed Bronze Mouse",
       "userId": 1,
       "id": 4
     },
     {
-      "title": "Generic Bronze Pants",
+      "title": "Elegant Cotton Computer",
       "userId": 1,
       "id": 5
     },
     {
-      "title": "Intelligent Granite Shoes",
-      "userId": 1,
+      "title": "Ergonomic Frozen Chair",
+      "userId": 2,
       "id": 6
     },
     {
-      "title": "Small Bronze Towels",
-      "userId": 4,
+      "title": "Refined Granite Hat",
+      "userId": 2,
       "id": 7
-    },
-    {
-      "title": "Awesome Soft Ball",
-      "userId": 4,
-      "id": 8
-    },
-    {
-      "title": "Modern Fresh Pizza",
-      "userId": 3,
-      "id": 9
-    },
-    {
-      "title": "Intelligent Wooden Bike",
-      "userId": 3,
-      "id": 10
-    },
-    {
-      "title": "Ergonomic Fresh Sausages",
-      "userId": 2,
-      "id": 11
-    },
-    {
-      "title": "Recycled Steel Towels",
-      "userId": 2,
-      "id": 12
-    },
-    {
-      "title": "Awesome Soft Ball",
-      "userId": 2,
-      "id": 13
-    },
-    {
-      "title": "Incredible Frozen Computer",
-      "userId": 2,
-      "id": 14
     }
   ],
   "photos": []

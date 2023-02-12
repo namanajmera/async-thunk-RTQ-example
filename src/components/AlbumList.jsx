@@ -1,20 +1,11 @@
 import React from "react";
 import AlbumListItem from "./AlbumListItem";
 import Button from "./Button";
+import { useFetchAlbumsQuery } from "../store";
+import Skeleton from "./Skeleton";
 
 export default function AlbumList({ user }) {
-  const albumList = [
-    {
-      id: 1,
-      name: "Album 1",
-      userId: 11,
-    },
-    {
-      id: 2,
-      name: "Album 2",
-      userId: 11,
-    },
-  ];
+  const { data, error, isLoading } = useFetchAlbumsQuery(user);
   return (
     <div className="m-2">
       <div className="flex flex-row justify-between items-center m-3">
@@ -22,16 +13,14 @@ export default function AlbumList({ user }) {
         <Button primary>+Add Album</Button>
       </div>
       <ul>
-        {
-          //   isLoading ? (
-          //     <Skeleton times={6} className="h-10 w-full" />
-          //   ) : (
-          albumList &&
-            albumList.map((album) => {
-              return <AlbumListItem key={album.id} album={album} />;
-            })
-          //   )
-        }
+        {isLoading ? (
+          <Skeleton times={2} className="h-10 w-full" />
+        ) : (
+          data &&
+          data.map((album) => {
+            return <AlbumListItem key={album.id} album={album} />;
+          })
+        )}
       </ul>
     </div>
   );

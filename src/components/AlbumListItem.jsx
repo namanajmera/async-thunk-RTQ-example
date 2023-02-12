@@ -12,7 +12,7 @@ export default function AlbumListItem({ album }) {
           <Button className="mr-3">
             <GoTrashcan />
           </Button>
-          {album.name}
+          {album.title}
         </>
       }
     >

@@ -23,8 +23,23 @@
     {
       "name": "Tasha McCullough",
       "id": 6
+    },
+    {
+      "name": "Lloyd Block",
+      "id": 7
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Album 1",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Album 2",
+      "userId": 3
+    }
+  ],
   "photos": []
 }
